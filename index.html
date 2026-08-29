@@ -323,10 +323,11 @@ img{display:block}
 .site-footer a{color:#C7D0F0;text-decoration:none;font-size:13.5px;transition:color .2s}
 .site-footer a:hover{color:var(--primary-bright)}
 .trust-box{
-  margin-top:14px;display:inline-flex;align-items:center;gap:10px;
+  margin-top:14px;display:flex;flex-direction:column;gap:10px;
 }
-.trust-box .tb-seal{display:inline-flex;padding:8px;border-radius:13px;background:#fff}
-.trust-box img{display:block;max-width:100px;height:auto}
+.trust-box .tb-item{display:flex;align-items:center;gap:10px}
+.trust-box .tb-seal{display:inline-flex;align-items:center;justify-content:center;padding:6px;border-radius:13px;background:#fff;min-width:44px}
+.trust-box img{display:block;max-width:75px;height:auto}
 .trust-box .tb-label{font-size:12.5px;font-weight:700;color:var(--ink)}
 .footer-bottom{
   border-top:1px solid var(--line);
@@ -1301,10 +1302,16 @@ img{display:block}
         <img class="logo-img-foot" alt="لوگوی پت شاپ خوشمزه">
         <div>
           <span class="fb-name">پت شاپ خوشمزه</span>
-          <p>عرضه مستقیم محصولات پت، صد در صد اورجینال از هر برند. ثبت سفارش از طریق واتساپ انجام می‌شود.</p>
+          <p>عرضه مستقیم محصولات پت، صد در صد اورجینال از هر برند.</p>
           <div class="trust-box">
-            <span class="tb-seal"><a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=7412066&amp;Code=2R5QZ6BxSqbQeGqflWsfCppa64lXABP0'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=7412066&amp;Code=2R5QZ6BxSqbQeGqflWsfCppa64lXABP0' alt='نماد اعتماد الکترونیکی' style='cursor:pointer' code='2R5QZ6BxSqbQeGqflWsfCppa64lXABP0'></a></span>
-            <span class="tb-label">دارای نماد اینماد</span>
+            <div class="tb-item">
+              <span class="tb-seal"><a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=7412066&amp;Code=2R5QZ6BxSqbQeGqflWsfCppa64lXABP0'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=7412066&amp;Code=2R5QZ6BxSqbQeGqflWsfCppa64lXABP0' alt='نماد اعتماد الکترونیکی' style='cursor:pointer' code='2R5QZ6BxSqbQeGqflWsfCppa64lXABP0'></a></span>
+              <span class="tb-label">دارای نماد اینماد</span>
+            </div>
+            <div class="tb-item">
+              <span class="tb-seal"><a href='https://emalls.ir/Shop/96235/' target='_blank'><img width='75' height='112' style='margin:3px;' alt='نشان اعتباری ایمالز' referrerpolicy='origin' src='https://service.emalls.ir/neshan?id=96235' /></a></span>
+              <span class="tb-label">دارای نشان اعتباری ایمالز</span>
+            </div>
           </div>
         </div>
       </div>
@@ -1503,6 +1510,7 @@ const WA_NUMBER = '905343718007';
 /* ⚙️ تنظیمات پرداخت — این مقادیر را با اطلاعات واقعی خود پر کنید */
 const PAY_CONFIG = {
   zarinpalLink: '',   // لینک درگاه شخصی زرین‌پال شما، مثلاً: 'https://zarinp.al/khoshmazeh'
+  balePayLink:  '',   // لینک پرداخت شخصی بله‌پی شما، از پنل بله‌پی
   cardNumber:   '',   // شماره کارت برای کارت به کارت، مثلاً: '6037-9975-1234-5678'
   cardHolder:   '',   // نام و نام خانوادگی صاحب کارت
   bankName:     ''    // نام بانک (اختیاری)
@@ -1782,7 +1790,7 @@ function buildOrderMessage(){
     return `${fa(i+1)}) ${p.name}\n    ${fa(qty)} عدد × ${fa(p.price)} = *${fa(p.price*qty)} تومان*`;
   });
   const c = order.customer;
-  const payLabel = {online:'درگاه آنلاین (زرین‌پال)', card:'کارت به کارت', wa:'هماهنگی در واتساپ'}[order.method];
+  const payLabel = {online:'درگاه آنلاین (زرین‌پال)', bale:'بله‌پی', card:'کارت به کارت', wa:'هماهنگی در واتساپ'}[order.method];
   const divider = '▫️▫️▫️▫️▫️▫️▫️▫️▫️';
   return [
     '🐾 *فاکتور فروش — پت شاپ خوشمزه*',
@@ -1889,7 +1897,7 @@ const newCode = () => 'KH-' + Math.floor(1000 + Math.random()*9000);
 
 function openCheckout(){
   if(cartCount() === 0) return;
-  const defaultMethod = PAY_CONFIG.zarinpalLink ? 'online' : (PAY_CONFIG.cardNumber ? 'card' : 'wa');
+  const defaultMethod = PAY_CONFIG.zarinpalLink ? 'online' : (PAY_CONFIG.balePayLink ? 'bale' : (PAY_CONFIG.cardNumber ? 'card' : 'wa'));
   order = { step:1, method:defaultMethod, code:newCode(), customer:order.customer };
   closeDrawer();
   $('coOverlay').classList.add('open');
@@ -1942,6 +1950,7 @@ function renderPayStep(){
   const I = 'width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
   const opts = [
     {key:'online', col:'var(--primary-bright)', bg:'var(--primary-soft)',  ico:`<svg ${I}><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 14.5h4"/></svg>`, title:'درگاه پرداخت آنلاین (زرین‌پال)', sub:'پرداخت امن با تمام کارت‌های شتاب', ready:!!PAY_CONFIG.zarinpalLink},
+    {key:'bale',   col:'#FBBF24',               bg:'rgba(251,191,36,.14)', ico:`<svg ${I}><rect x="3" y="6.5" width="18" height="12" rx="2.5"/><path d="M3 10.5h18"/><circle cx="16.5" cy="14.5" r="1.2" fill="currentColor" stroke="none"/></svg>`, title:'پرداخت با بله‌پی', sub:'پرداخت از کیف‌پول یا کارت، در اپلیکیشن بله', ready:!!PAY_CONFIG.balePayLink},
     {key:'card',   col:'var(--teal)',           bg:'var(--teal-soft)',     ico:`<svg ${I}><path d="m12 3 8.5 4.8h-17L12 3Z"/><path d="M5.2 8v7.5M9.7 8v7.5M14.3 8v7.5M18.8 8v7.5M3.5 18.8h17"/></svg>`, title:'کارت به کارت', sub:'واریز به کارت و ارسال رسید در واتساپ', ready:!!PAY_CONFIG.cardNumber},
     {key:'wa',     col:'#4ADE80',               bg:'rgba(37,211,102,.14)', ico:`<svg ${I}><path d="M20.5 12a8.5 8.5 0 0 1-12.3 7.6L4 20.5l.9-4.2A8.5 8.5 0 1 1 20.5 12Z"/></svg>`, title:'هماهنگی پرداخت در واتساپ', sub:'ثبت سفارش و پرداخت با راهنمایی پشتیبانی', ready:true},
   ];
@@ -1979,7 +1988,7 @@ function buildInvoiceHtml(){
     <div class="invoice-meta">
       <div><b>شماره فاکتور</b><span>${order.code}</span></div>
       <div><b>تاریخ صدور</b><span>${invoiceDateStr()}</span></div>
-      <div><b>روش پرداخت</b><span>${{online:'درگاه آنلاین', card:'کارت به کارت', wa:'هماهنگی در واتساپ'}[order.method]}</span></div>
+      <div><b>روش پرداخت</b><span>${{online:'درگاه آنلاین', bale:'بله‌پی', card:'کارت به کارت', wa:'هماهنگی در واتساپ'}[order.method]}</span></div>
     </div>
     <div class="invoice-customer">
       <b>گیرنده:</b> ${c.name} — موبایل: <bdi dir="ltr">${toFaDigits(c.phone)}</bdi><br>
@@ -2019,6 +2028,11 @@ function renderConfirmStep(){
       ? `<a class="btn-go pay-go" href="${PAY_CONFIG.zarinpalLink}" target="_blank" rel="noopener">💳 پرداخت آنلاین ${fa(cartTotal())} تومان</a>
          <p class="pay-note">پس از پرداخت، رسید را همراه کد سفارش <b>${order.code}</b> در واتساپ ارسال کنید تا سفارش تأیید شود.</p>`
       : `<p class="pay-note">⚠️ درگاه آنلاین هنوز فعال نشده است — لطفاً فعلاً سفارش را در واتساپ ارسال کنید تا پرداخت هماهنگ شود.</p>`;
+  } else if(order.method === 'bale'){
+    payHtml = PAY_CONFIG.balePayLink
+      ? `<a class="btn-go pay-go" style="background:#FBBF24;color:#1E293B" href="${PAY_CONFIG.balePayLink}" target="_blank" rel="noopener">💛 پرداخت با بله‌پی — ${fa(cartTotal())} تومان</a>
+         <p class="pay-note">پس از پرداخت، رسید را همراه کد سفارش <b>${order.code}</b> در واتساپ ارسال کنید تا سفارش تأیید شود.</p>`
+      : `<p class="pay-note">⚠️ بله‌پی هنوز فعال نشده است — لطفاً فعلاً سفارش را در واتساپ ارسال کنید تا پرداخت هماهنگ شود.</p>`;
   } else if(order.method === 'card'){
     payHtml = PAY_CONFIG.cardNumber
       ? `<div class="card-box">
