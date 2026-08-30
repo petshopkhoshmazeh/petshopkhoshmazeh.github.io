@@ -1851,16 +1851,15 @@ $('grid').addEventListener('click', e => {
     return;
   }
   if(e.target.closest('.inquire-btn')) return;
-  if(e.target.closest('.detail-hint')) return;
   const card = e.target.closest('[data-detail]');
-  if(card) openProductDetail(+card.dataset.detail);
+  if(card) window.location.href = `product-${card.dataset.detail}.html`;
 });
 $('grid').addEventListener('keydown', e => {
   if(e.key !== 'Enter' && e.key !== ' ') return;
   const card = e.target.closest('[data-detail]');
   if(!card) return;
   e.preventDefault();
-  openProductDetail(+card.dataset.detail);
+  window.location.href = `product-${card.dataset.detail}.html`;
 });
 
 $('drawerItems').addEventListener('click', e => {
