@@ -1599,7 +1599,15 @@ const PRODUCTS = [
 ];
 
 /* ---------- وضعیت ---------- */
-let cart = {};                       // { productId: qty }
+const CART_KEY = 'khoshmazeh_cart';
+function loadCart(){
+  try {
+    const raw = localStorage.getItem(CART_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return (parsed && typeof parsed === 'object') ? parsed : {};
+  } catch(e){ return {}; }
+}
+let cart = loadCart();               // { productId: qty } — هم‌زمان با localStorage
 let view = { cat:'all', q:'', sort:'default' };
 
 /* ---------- ابزارک‌ها ---------- */
@@ -1722,6 +1730,7 @@ function cartTotal(){
 }
 
 function renderCart(){
+  try { localStorage.setItem(CART_KEY, JSON.stringify(cart)); } catch(e){}
   const items = Object.entries(cart);
   const box = $('drawerItems');
 
@@ -2594,6 +2603,7 @@ $('advBox').addEventListener('click', e => {
 renderChips();
 renderGrid();
 renderCart();
+if(location.hash === '#cart') openDrawer();
 try{ renderMagazine(); }catch(e){ console.error('renderMagazine failed', e); }
 try{ advRender(); }catch(e){ console.error('advRender failed', e); }
 try{ initFacts(); }catch(e){ console.error('initFacts failed', e); }
