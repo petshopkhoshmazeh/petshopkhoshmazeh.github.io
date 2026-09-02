@@ -1570,7 +1570,19 @@ function loadCart(){
   try {
     const raw = localStorage.getItem(CART_KEY);
     const parsed = raw ? JSON.parse(raw) : {};
-    return (parsed && typeof parsed === 'object') ? parsed : {};
+    if(!parsed || typeof parsed !== 'object') return {};
+    // پاک‌سازی آیدی‌های قدیمی/حذف‌شده که دیگه توی کاتالوگ نیستن (جلوگیری از کرش رندر سبد)
+    const clean = {};
+    let hadStale = false;
+    for(const [id, qty] of Object.entries(parsed)){
+      if(PRODUCTS.some(p => p.id === +id) && qty > 0){
+        clean[id] = qty;
+      } else {
+        hadStale = true;
+      }
+    }
+    if(hadStale){ try{ localStorage.setItem(CART_KEY, JSON.stringify(clean)); }catch(e){} }
+    return clean;
   } catch(e){ return {}; }
 }
 let cart = loadCart();               // { productId: qty } — هم‌زمان با localStorage
