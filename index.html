@@ -1277,7 +1277,7 @@ img{display:block}
       </details>
       <details class="faq-item" id="terms">
         <summary>قوانین و شرایط استفاده از سایت</summary>
-        <div class="faq-body">با ثبت سفارش از این سایت، این نکات رو در نظر داشته باشید: قیمت نهایی و موجودی کالا هنگام هماهنگی در واتساپ تأیید می‌شه؛ سفارش شما فقط پس از تأیید نهایی در واتساپ قطعی محسوب می‌شه؛ و شرایط بازگشت کالا طبق پاسخ سؤال بالا (بازگشت کالا) اعمال می‌شه.</div>
+        <div class="faq-body">با ثبت سفارش از این سایت، این نکات رو در نظر داشته باشید: سفارش شما فقط پس از تأیید نهایی در واتساپ قطعی محسوب می‌شه؛ و شرایط بازگشت کالا طبق پاسخ سؤال بالا (بازگشت کالا) اعمال می‌شه.</div>
       </details>
     </div>
   </div>
@@ -1287,7 +1287,7 @@ img{display:block}
 <section class="container" style="padding-bottom:8px">
   <div class="wa-band">
     <div>
-      <h3>محصولی می‌خوای که توی سایت نیست؟ 🌍</h3>
+      <h3>محصولی می‌خوای که توی سایت نیست؟</h3>
       <p>هر برند و هر محصولی رو برات وارد می‌کنیم — کافیه پیام بدی: <span class="num" dir="ltr">+90 534 371 8007</span></p>
     </div>
     <div style="display:flex;gap:10px;flex-wrap:wrap">
@@ -1652,9 +1652,18 @@ function toJalali(gy, gm, gd){
 const JALALI_MONTHS = ['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
 function invoiceDateStr(){
   const now = new Date();
-  const [jy, jm, jd] = toJalali(now.getFullYear(), now.getMonth()+1, now.getDate());
-  const hh = String(now.getHours()).padStart(2,'0');
-  const mm = String(now.getMinutes()).padStart(2,'0');
+  /* استخراج تاریخ و ساعت دقیقاً بر اساس منطقهٔ زمانیِ ایران (تهران)، صرف‌نظر از تنظیمات دستگاه یا موقعیت مکانیِ بازدیدکننده */
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Tehran', year: 'numeric', month: 'numeric', day: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).formatToParts(now);
+  const get = t => parts.find(p => p.type === t).value;
+  const gy = parseInt(get('year'), 10);
+  const gm = parseInt(get('month'), 10);
+  const gd = parseInt(get('day'), 10);
+  const hh = get('hour') === '24' ? '00' : get('hour');
+  const mm = get('minute');
+  const [jy, jm, jd] = toJalali(gy, gm, gd);
   return `${fa(jd)} ${JALALI_MONTHS[jm-1]} ${toFaDigits(jy)} — ساعت ${toFaDigits(hh)}:${toFaDigits(mm)}`;
 }
 const offPct = p => Math.round((1 - p.price / p.old) * 100);
@@ -1820,20 +1829,20 @@ function buildOrderMessage(){
   });
   const c = order.customer;
   const payLabel = {online:'درگاه آنلاین (زرین‌پال)', bale:'بله‌پی', card:'کارت به کارت', wa:'هماهنگی در واتساپ'}[order.method];
-  const divider = '▫️▫️▫️▫️▫️▫️▫️▫️▫️';
+  const divider = '------------------------------';
   return [
-    '🐾 *فاکتور فروش — پت شاپ خوشمزه*',
+    '*فاکتور فروش — پت شاپ خوشمزه*',
     `شماره فاکتور: *${order.code}*`,
     `تاریخ: ${invoiceDateStr()}`,
     divider,
-    `*🛒 اقلام سفارش (${fa(items.length)} قلم):*`,
+    `*اقلام سفارش (${fa(items.length)} قلم):*`,
     ...items,
     divider,
-    `*💰 جمع کل:* ${fa(cartTotal())} تومان`,
+    `*جمع کل:* ${fa(cartTotal())} تومان`,
     '(هزینهٔ ارسال جداگانه از هزینهٔ محصول است و به‌صورت پس‌کرایه، هنگام تحویل به مأمور پست پرداخت می‌شود)',
-    `*💳 روش پرداخت:* ${payLabel}`,
+    `*روش پرداخت:* ${payLabel}`,
     divider,
-    '*📦 مشخصات گیرنده:*',
+    '*مشخصات گیرنده:*',
     `نام و نام خانوادگی: ${c.name}`,
     `موبایل: ${toFaDigits(c.phone)}`,
     `تلفن ثابت: ${toFaDigits(c.tel)}`,
@@ -1844,7 +1853,7 @@ function buildOrderMessage(){
     c.flavor ? `طعم و ساختار درخواستی: ${c.flavor}` : null,
     c.note ? `یادداشت: ${c.note}` : null,
     divider,
-    'با ارسال این پیام، اطلاعات و سفارش بالا رو تأیید می‌کنم و ثبت نهایی‌شو درخواست می‌دم. 🙏'
+    'با ارسال این پیام، اطلاعات و سفارش بالا رو تأیید می‌کنم و ثبت نهایی‌شو درخواست می‌دم.'
   ].filter(x => x !== null).join('\n');
 }
 
@@ -1994,55 +2003,6 @@ function renderPayStep(){
   `).join('');
 }
 
-/* بارگذاری تنبلِ کتابخانه‌های ساخت PDF — فقط زمانی که کاربر واقعاً به این مرحله برسه دانلود می‌شن، نه در بارگذاری اولیهٔ سایت */
-function loadScriptOnce(src){
-  return new Promise((resolve, reject) => {
-    if(document.querySelector(`script[src="${src}"]`)) return resolve();
-    const s = document.createElement('script');
-    s.src = src; s.onload = () => resolve(); s.onerror = () => reject(new Error('load-failed'));
-    document.head.appendChild(s);
-  });
-}
-async function buildInvoicePdfFile(){
-  await loadScriptOnce('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js');
-  await loadScriptOnce('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js');
-  const el = document.getElementById('invoicePrintArea');
-  const canvas = await html2canvas(el, {scale:2, backgroundColor:'#ffffff', useCORS:true});
-  const imgData = canvas.toDataURL('image/jpeg', 0.95);
-  const { jsPDF } = window.jspdf;
-  const pdf = new jsPDF({unit:'px', format:[canvas.width, canvas.height]});
-  pdf.addImage(imgData, 'JPEG', 0, 0, canvas.width, canvas.height);
-  const blob = pdf.output('blob');
-  return new File([blob], `فاکتور-${order.code}.pdf`, {type:'application/pdf'});
-}
-async function handleShareInvoice(){
-  const btn = document.getElementById('shareInvoiceBtn');
-  const note = document.getElementById('invoiceShareNote');
-  const originalLabel = btn.innerHTML;
-  btn.disabled = true; btn.innerHTML = '⏳ در حال آماده‌سازی فاکتور…';
-  try{
-    const file = await buildInvoicePdfFile();
-    if(navigator.canShare && navigator.canShare({files:[file]})){
-      await navigator.share({
-        files:[file],
-        title:'فاکتور خرید — پت شاپ خوشمزه',
-        text:`🐾 فاکتور سفارش شما از پت شاپ خوشمزه — کد سفارش: ${order.code}`
-      });
-      if(note) note.textContent = '✅ فاکتور آماده شد. حالا واتساپ رو هم از دکمهٔ پایین برای هماهنگی نهایی بزنید.';
-    } else {
-      // مرورگر امکان اشتراک‌گذاری فایل رو نداره (معمولاً دسکتاپ) — بازگشت به روش دستی
-      window.print();
-      if(note) note.textContent = '📎 مرورگرتون اشتراک‌گذاری مستقیم فایل رو پشتیبانی نمی‌کنه؛ به‌جاش پنجرهٔ چاپ باز شد — فاکتور رو ذخیره و در واتساپ پیوست کنید.';
-    }
-  }catch(err){
-    if(err && err.name !== 'AbortError'){ // AbortError یعنی کاربر خودش صفحهٔ اشتراک‌گذاری رو بسته، نیازی به توضیح نیست
-      window.print();
-      if(note) note.textContent = '📎 اشتراک‌گذاری خودکار ممکن نشد؛ به‌جاش پنجرهٔ چاپ باز شد — فاکتور رو ذخیره و در واتساپ پیوست کنید.';
-    }
-  }finally{
-    btn.disabled = false; btn.innerHTML = originalLabel;
-  }
-}
 function buildInvoiceHtml(){
   const c = order.customer;
   const rows = Object.entries(cart).map(([id,qty], i) => {
@@ -2094,16 +2054,12 @@ function buildInvoiceHtml(){
     </div>
   </div>
   <div class="invoice-actions">
-    <button class="invoice-print-btn" id="shareInvoiceBtn">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2"/></svg>
-      اشتراک‌گذاری PDF فاکتور
-    </button>
-    <button class="invoice-print-btn" id="invoicePrintBtn" style="background:transparent;color:var(--muted)">
+    <button class="invoice-print-btn" id="invoicePrintBtn">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-2M6 14h12v7H6z"/></svg>
-      چاپ / ذخیرهٔ دستی
+      چاپ / ذخیرهٔ PDF فاکتور
     </button>
   </div>
-  <p class="pay-note" id="invoiceShareNote">📎 با دکمهٔ «اشتراک‌گذاری» فاکتور PDF ساخته می‌شه و صفحهٔ اشتراک‌گذاری گوشیتون باز می‌شه — واتساپ رو انتخاب کنید تا فاکتور به‌صورت فایل ارسال بشه.</p>`;
+  <p class="pay-note">با این دکمه فاکتور رو به‌صورت PDF ذخیره کنید؛ سپس در گفتگوی واتساپ که با دکمهٔ پایین باز می‌شه، همین فایل رو هم به‌عنوان پیوست اضافه و ارسال کنید تا فاکتور کامل دست ما برسه.</p>`;
 }
 function renderConfirmStep(){
   const c = order.customer;
@@ -2150,8 +2106,6 @@ function renderConfirmStep(){
       .catch(() => toast(num));
   });
   document.getElementById('invoicePrintBtn').addEventListener('click', () => window.print());
-  const shareBtn = document.getElementById('shareInvoiceBtn');
-  if(shareBtn) shareBtn.addEventListener('click', handleShareInvoice);
   document.getElementById('coWaBtn').addEventListener('click', () => {
     const url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(buildOrderMessage());
     window.open(url, '_blank', 'noopener');
@@ -2411,17 +2365,15 @@ const LEGAL_PAGES = {
 <p>«پت شاپ خوشمزه» فروشگاه آنلاین عرضهٔ محصولات حیوانات خانگی (غذا، تشویقی و لوازم جانبی) است. با ثبت سفارش از این سایت، شما این قوانین را می‌پذیرید:</p>
 <h4>۱. روند ثبت سفارش</h4>
 <p>سفارش در سه مرحله انجام می‌شود: انتخاب محصول و افزودن به سبد خرید، تکمیل اطلاعات گیرنده، و انتخاب روش پرداخت. سفارش شما فقط پس از تأیید نهایی در واتساپ توسط تیم فروشگاه، قطعی و نهایی محسوب می‌شود.</p>
-<h4>۲. قیمت‌گذاری</h4>
-<p>قیمت‌های درج‌شده در سایت ممکن است به دلیل نوسانات نرخ ارز تغییر کنند. قیمت نهایی هر سفارش، حین هماهنگی در واتساپ به اطلاع شما می‌رسد.</p>
-<h4>۳. ارسال</h4>
+<h4>۲. ارسال</h4>
 <p>سفارش‌ها در همان روزِ ثبت، از طریق یکی از پیک‌های دکاپست، تیپاکس یا ماهکس (قابل انتخاب حین ثبت سفارش) ارسال می‌شن. هزینهٔ ارسال جداگانه از هزینهٔ محصول است، بسته به شهر و روش انتخابی متفاوته، و به‌صورت پس‌کرایه، حین تحویل بسته به مأمور پست پرداخت می‌شه.</p>
-<h4>۴. روش‌های پرداخت</h4>
+<h4>۳. روش‌های پرداخت</h4>
 <p>پرداخت از طریق درگاه آنلاین (در صورت فعال بودن)، کارت‌به‌کارت، یا هماهنگی مستقیم در واتساپ امکان‌پذیر است.</p>
-<h4>۵. مسئولیت مشتری</h4>
+<h4>۴. مسئولیت مشتری</h4>
 <p>مسئولیت صحت اطلاعات تماس و آدرس ارسال‌شده در فرم سفارش، بر عهدهٔ مشتری است. تأخیر یا عدم امکان تحویل ناشی از اطلاعات نادرست، بر عهدهٔ فروشگاه نخواهد بود.</p>
-<h4>۶. حق فروشگاه</h4>
+<h4>۵. حق فروشگاه</h4>
 <p>فروشگاه در موارد خاص (مانند نبود موجودی، عدم تأیید سفارش طی مهلت معقول، یا مغایرت در اطلاعات ثبت‌شده) حق لغو یا به‌تعویق‌انداختن سفارش را برای خود محفوظ می‌دارد؛ در این‌صورت موضوع از طریق واتساپ به اطلاع مشتری خواهد رسید.</p>
-<h4>۷. ارتباط و پشتیبانی</h4>
+<h4>۶. ارتباط و پشتیبانی</h4>
 <p>برای هرگونه سؤال، پیگیری سفارش یا اعتراض، از طریق واتساپ (<bdi dir="ltr">+90 534 371 8007</bdi>) در دسترس هستیم.</p>`
   },
   privacy: {
@@ -2450,7 +2402,7 @@ const LEGAL_PAGES = {
 <h4>۱. بررسی هنگام تحویل</h4>
 <p>لطفاً کالا را هنگام تحویل از نظر سلامت بسته‌بندی و مطابقت با سفارش بررسی کنید. در صورت مشاهدهٔ مغایرت، آسیب‌دیدگی یا مشکل، همان روز دریافت با عکس و توضیح کوتاه در واتساپ به ما اطلاع دهید.</p>
 <h4>۲. کالاهای قابل بازگشت</h4>
-<p>کالاهایی که در بستهٔ اصلی و مهروموم‌نشده باقی مانده و آسیب یا مصرفی نداشته باشند، تا ۲۴ ساعت پس از دریافت، قابل بررسی برای بازگشت یا تعویض هستند.</p>
+<p>کالاهایی که در بستهٔ اصلی و مهروموم‌شده باقی مانده و آسیب یا مصرفی نداشته باشند، تا ۲۴ ساعت پس از دریافت، قابل بررسی برای بازگشت یا تعویض هستند.</p>
 <h4>۳. کالاهای غیرقابل بازگشت</h4>
 <p>به دلیل ماهیت بهداشتی محصولات، اقلام غذایی و تشویقی‌های بازشده یا مصرف‌شده، امکان بازگشت ندارند مگر در موارد نقص کالا یا اشتباه در ارسال از سمت فروشگاه.</p>
 <h4>۴. روند بازگشت</h4>
