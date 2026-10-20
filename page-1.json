@@ -1,5 +1,8 @@
 {
-  "success": true,
+  "total_items": 76,
+  "pages_count": 4,
+  "item_per_page": 20,
+  "page_num": 1,
   "products": [
     {
       "title": "غذای خشک بچه گربه رویال کنین مدل British Shorthair Kitten وزن ۲ کیلوگرم (ارسال مستقیم از استانبول)",
@@ -181,9 +184,5 @@
       "is_available": true,
       "url": "https://petshopkhoshmazeh.ir/product-102.html"
     }
-  ],
-  "total_items": 53,
-  "pages_count": 3,
-  "item_per_page": 20,
-  "page_num": 1
+  ]
 }
