@@ -1,0 +1,23 @@
+راهنمای انتشار و پیگیری سئوی پت‌شاپ خوشمزه | ۱۹ اکتبر ۲۰۲۶
+
+۱) فایل ZIP را استخراج کنید و «محتویات» آن را در ریشه مخزن GitHub Pages قرار دهید. خود فایل ZIP را به جای صفحات آپلود نکنید. فایل‌های CNAME و .nojekyll را نگه دارید.
+۲) پس از انتشار در مرورگر بررسی کنید:
+   https://petshopkhoshmazeh.ir/
+   https://petshopkhoshmazeh.ir/product-83.html
+   https://petshopkhoshmazeh.ir/product-125.html
+   https://petshopkhoshmazeh.ir/cat-dry-food.html
+   https://petshopkhoshmazeh.ir/cat-wet-food.html
+   https://petshopkhoshmazeh.ir/dog-food.html
+   https://petshopkhoshmazeh.ir/sitemap.xml
+   اگر صفحه‌ای ۴۰۴ بود، محتویات ZIP درست منتشر نشده‌اند.
+۳) در Google Search Console مالکیت دامنه petshopkhoshmazeh.ir را تأیید کنید (ترجیحاً از طریق DNS؛ اگر از Cloudflare استفاده می‌کنید، رکورد TXT را در آنجا ثبت کنید).
+   لینک: https://search.google.com/search-console/
+۴) در Search Console > Sitemaps آدرس https://petshopkhoshmazeh.ir/sitemap.xml را ثبت کنید.
+۵) با ابزار URL Inspection صفحه اصلی، product-83.html، product-125.html و یکی از صفحات دسته‌بندی را بررسی و در صورت نیاز Request indexing کنید.
+۶) در Google Rich Results Test چند صفحه محصول را بررسی کنید:
+   https://search.google.com/test/rich-results
+۷) از Search Console > Performance > Search results تعداد نمایش، کلیک، CTR و عبارت‌های جستجو را با گذر زمان پیگیری کنید. بالا رفتن رتبه و دریافت نمایش تضمینی یا فوری نیست.
+
+اقدامات اعمال‌شده روی کد: لینک HTML مستقیم به ۵۴ صفحه محصول؛ ۴ صفحه دسته‌بندی؛ پیوند محصولات مشابه؛ Product/Offer/BreadcrumbList؛ نقشه سایت با آدرس ۵۹ صفحه و تصاویر؛ سبک‌سازی عکس‌های بندانگشتی صفحه اصلی بدون تغییر عکس‌های اصلی.
+
+نکته: این بسته تغییر را روی سایت آنلاین منتشر نمی‌کند. نتایج بستگی به انتشار صحیح، دسترسی ربات گوگل، کیفیت محتوا و رقابت جستجو نیز دارد.

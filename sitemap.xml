@@ -1,57 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://petshopkhoshmazeh.ir/</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-72.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-73.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-74.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-75.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-76.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-77.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-78.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-79.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-80.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-81.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-82.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-83.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-84.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-85.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-86.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-87.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-88.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-89.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-90.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-91.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-92.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-93.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-94.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-95.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-96.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-97.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-98.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-99.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-100.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-101.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-102.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-103.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-104.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-105.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-106.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-107.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-108.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-109.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-110.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-111.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-112.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-113.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-114.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-115.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-116.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-117.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-118.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-119.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-120.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-121.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-122.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-123.html</loc></url>
-  <url><loc>https://petshopkhoshmazeh.ir/product-124.html</loc></url>
-</urlset>
+<?xml version='1.0' encoding='utf8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://petshopkhoshmazeh.ir/</loc><lastmod>2026-10-19</lastmod>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/cat-products.html</loc><lastmod>2026-10-19</lastmod>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/cat-dry-food.html</loc><lastmod>2026-10-19</lastmod>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/cat-wet-food.html</loc><lastmod>2026-10-19</lastmod>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/dog-food.html</loc><lastmod>2026-10-19</lastmod>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-83.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-83.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-84.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-84.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-85.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-85.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-86.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-86.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-87.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-87.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-88.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-88.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-89.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-89.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-90.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-90.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-91.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-91.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-92.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-92.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-93.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-93.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-94.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-94.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-95.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-95.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-96.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-96.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-97.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-97.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-98.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-98.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-99.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-99.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-100.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-100.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-101.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-101.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-102.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-102.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-103.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-103.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-104.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-104.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-105.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-105.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-106.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-106.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-107.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-107.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-108.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-108.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-109.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-109.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-110.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-110.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-111.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-111.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-112.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-112.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-113.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-113.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-114.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-114.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-115.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-115.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-116.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-116.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-117.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-117.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-118.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-118.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-119.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-119.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-120.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-120.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-121.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-121.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-122.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-122.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-123.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-123.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-124.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-124.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-125.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-125.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-72.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-72.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-73.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-73.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-74.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-74.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-75.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-75.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-76.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-76.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-77.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-77.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-78.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-78.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-79.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-79.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-80.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-80.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-81.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-81.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/product-82.html</loc><lastmod>2026-10-19</lastmod>
+<image:image><image:loc>https://petshopkhoshmazeh.ir/product-82.jpg</image:loc></image:image>
+</url>
+<url><loc>https://petshopkhoshmazeh.ir/ai-shopping-guide.html</loc><lastmod>2026-10-19</lastmod></url>
+<url><loc>https://petshopkhoshmazeh.ir/product-126.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-126.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-127.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-127.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-128.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-128.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-129.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-129.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-130.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-130.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-131.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-131.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-132.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-132.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-133.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-133.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-134.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-134.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-135.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-135.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-136.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-136.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-137.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-137.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-138.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-138.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-139.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-139.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-140.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-140.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-141.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-141.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-142.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-142.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-143.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-143.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-144.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-144.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-145.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-145.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-146.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-146.jpg</image:loc></image:image></url><url><loc>https://petshopkhoshmazeh.ir/product-147.html</loc><image:image><image:loc>https://petshopkhoshmazeh.ir/product-147.jpg</image:loc></image:image></url></urlset>

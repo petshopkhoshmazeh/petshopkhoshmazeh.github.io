@@ -1,4 +1,30 @@
+# Public product pages and category pages are crawlable.
+# Search/retrieval crawlers; permissions for model training are a separate topic.
 User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 Sitemap: https://petshopkhoshmazeh.ir/sitemap.xml
