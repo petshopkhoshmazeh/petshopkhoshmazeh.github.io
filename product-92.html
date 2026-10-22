@@ -237,7 +237,7 @@ footer a{color:var(--primary-bright)}
 <script>
 (function(){
   var CART_KEY = 'khoshmazeh_cart';
-  var CART_LIMITS = {"72":30,"73":20,"74":26,"75":31,"76":8,"77":5,"78":0,"79":0,"80":0,"81":0,"82":1,"85":12,"87":12,"88":12,"89":12,"90":12,"91":12,"92":12,"93":12,"94":12,"95":12,"96":12};
+  var CART_LIMITS = {"72":0,"73":0,"74":0,"75":0,"76":8,"77":5,"78":0,"79":0,"80":0,"81":0,"82":0,"85":12,"87":12,"88":12,"89":12,"90":12,"91":12,"92":12,"93":12,"94":12,"95":12,"96":12};
   function limitForId(id){
     return Object.prototype.hasOwnProperty.call(CART_LIMITS, String(id)) ? CART_LIMITS[id] : 20;
   }
@@ -248,7 +248,7 @@ footer a{color:var(--primary-bright)}
       if(!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
       var clean = {};
       for(var key in parsed){
-        if(!Object.prototype.hasOwnProperty.call(parsed,key) || !/^\d+$/.test(key) || Number(key) < 72 || Number(key) > 147) continue;
+        if(!Object.prototype.hasOwnProperty.call(parsed,key) || !/^\d+$/.test(key) || Number(key) < 72 || Number(key) > 176) continue;
         var n = Number(parsed[key]);
         if(Number.isSafeInteger(n) && n > 0 && limitForId(key) > 0) clean[key] = Math.min(n,limitForId(key));
       }
@@ -444,5 +444,9 @@ footer a{color:var(--primary-bright)}
 })();
 </script>
 
+
+<!-- Unified searchable index: 76 product pages, offline-compatible -->
+<script defer src="assets/search-catalog.js"></script>
+<script defer src="assets/site-search.js"></script>
 </body>
 </html>
