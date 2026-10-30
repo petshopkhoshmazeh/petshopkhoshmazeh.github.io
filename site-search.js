@@ -101,7 +101,7 @@
     const fragment=document.createDocumentFragment();
     for(const {p} of matches){
       const a=document.createElement('a');a.href=p.url;a.className='khz-item';
-      const status=p.stock?'<div class="khz-item-price">'+fmt(p.price)+' تومان</div>':'<div class="khz-unavailable">ناموجود</div>';
+      const status=!p.stock?'<div class="khz-unavailable">ناموجود</div>':p.price==null?'<div class="khz-item-price">موجود در انبار — استعلام قیمت</div>':'<div class="khz-item-price">'+fmt(p.price)+' تومان</div>';
       a.innerHTML='<img src="'+htmlEsc(p.image)+'" loading="lazy" alt=""><span class="khz-item-body"><span class="khz-item-name">'+htmlEsc(p.name)+'</span>'+status+'</span>';
       fragment.appendChild(a);
     }

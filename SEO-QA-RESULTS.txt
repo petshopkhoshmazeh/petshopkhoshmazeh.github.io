@@ -1,0 +1,8 @@
+SEO QA 2026-10-30
+Products: 126
+Sitemap URLs: 133
+Offer prices and availability same as previous version
+Executable JavaScript preserved
+Missing internal links: 0
+Issues:
+
