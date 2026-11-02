@@ -3,7 +3,6 @@
 > فروشگاه فارسی محصولات گربه و سگ با صفحه مستقل برای هر محصول. این فایل فقط یک راهنمای داوطلبانه برای ابزارهای مطالعه‌کننده است و نه روش تضمینی رتبه در موتورهای پاسخ‌گو.
 
 - وب‌سایت اصلی: https://petshopkhoshmazeh.ir/
-- راهنمای انتخاب و فهرست همه ۱۳۶ محصول: https://petshopkhoshmazeh.ir/ai-shopping-guide.html
 - غذای خشک گربه: https://petshopkhoshmazeh.ir/cat-dry-food.html
 - پوچ و کنسرو گربه: https://petshopkhoshmazeh.ir/cat-wet-food.html
 - همه محصولات گربه و تشویقی: https://petshopkhoshmazeh.ir/cat-products.html
