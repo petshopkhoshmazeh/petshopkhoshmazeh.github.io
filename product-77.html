@@ -247,7 +247,7 @@ footer a{color:var(--primary-bright)}
       if(!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
       var clean = {};
       for(var key in parsed){
-        if(!Object.prototype.hasOwnProperty.call(parsed,key) || !/^\d+$/.test(key) || Number(key) < 72 || Number(key) > 207) continue;
+        if(!Object.prototype.hasOwnProperty.call(parsed,key) || !/^\d+$/.test(key) || Number(key) < 72 || Number(key) > 307) continue;
         var n = Number(parsed[key]);
         if(Number.isSafeInteger(n) && n > 0 && limitForId(key) > 0) clean[key] = Math.min(n,limitForId(key));
       }
