@@ -1,6 +1,774 @@
 {
-  "count": 188,
+  "count": 231,
   "products": [
+    {
+      "title": "غذای خشک گربه بالغ رفلکس با طعم مرغ و برنج ۱۵ کیلوگرم",
+      "page_unique": "307",
+      "current_price": 27300000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-307.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-307.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-307.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس با طعم مرغ و برنج ۱۵ کیلوگرم. فرمول Chicken & Rice مخصوص گربه بالغ. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ رفلکس با گوشت بره، برنج و سبزیجات ۱۵ کیلوگرم",
+      "page_unique": "306",
+      "current_price": 24500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-306.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-306.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-306.html",
+      "short_desc": "غذای خشک سگ بالغ رفلکس با گوشت بره، برنج و سبزیجات ۱۵ کیلوگرم. غذای سگ بالغ با گوشت بره، برنج و سبزیجات. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک گربه عقیم‌شده رفلکس با سالمون و برنج ۱۵ کیلوگرم",
+      "page_unique": "305",
+      "current_price": 28500000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-305.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-305.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-305.html",
+      "short_desc": "غذای خشک گربه عقیم‌شده رفلکس با سالمون و برنج ۱۵ کیلوگرم. غذای گربه عقیم‌شده با سالمون و برنج. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک گربه عقیم‌شده رفلکس با سالمون و برنج ۱۰ کیلوگرم",
+      "page_unique": "304",
+      "current_price": 18950000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-304.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-304.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-304.html",
+      "short_desc": "غذای خشک گربه عقیم‌شده رفلکس با سالمون و برنج ۱۰ کیلوگرم. غذای گربه عقیم‌شده با سالمون و برنج. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ رفلکس با سالمون و برنج ۱۵ کیلوگرم",
+      "page_unique": "303",
+      "current_price": 24500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-303.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-303.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-303.html",
+      "short_desc": "غذای خشک سگ بالغ رفلکس با سالمون و برنج ۱۵ کیلوگرم. غذای سگ بالغ با سالمون و برنج. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس با سالمون و ماهی آنچوی ۱۵ کیلوگرم",
+      "page_unique": "302",
+      "current_price": 28800000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-302.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-302.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-302.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس با سالمون و ماهی آنچوی ۱۵ کیلوگرم. غذای گربه بالغ با سالمون و ماهی آنچوی. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس با مرغ و برنج دانه‌رنگی ۱۵ کیلوگرم",
+      "page_unique": "301",
+      "current_price": 28900000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-301.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-301.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-301.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس با مرغ و برنج دانه‌رنگی ۱۵ کیلوگرم. غذای گربه بالغ با مرغ و برنج و دانه‌های رنگی. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ رفلکس با گوشت گاو و برنج ۱۵ کیلوگرم",
+      "page_unique": "300",
+      "current_price": 22750000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-300.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-300.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-300.html",
+      "short_desc": "غذای خشک توله‌سگ رفلکس با گوشت گاو و برنج ۱۵ کیلوگرم. غذای توله‌سگ با گوشت گاو و برنج. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک گربه رفلکس پلاس یورینری با مرغ برای سلامت مجاری ادراری ۱۵ کیلوگرم",
+      "page_unique": "299",
+      "current_price": 32000000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-299.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-299.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-299.html",
+      "short_desc": "غذای خشک گربه رفلکس پلاس یورینری با مرغ برای سلامت مجاری ادراری ۱۵ کیلوگرم. فرمول یورینری با مرغ برای گربه‌های بالغ. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با مرغ ۱۲ کیلوگرم",
+      "page_unique": "298",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-298.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-298.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-298.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با مرغ ۱۲ کیلوگرم. فرمول مرغ مخصوص سگ‌های بالغ نژاد متوسط و بزرگ. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با سالمون ۱۲ کیلوگرم",
+      "page_unique": "297",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-297.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-297.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-297.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با سالمون ۱۲ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس پلاس با سالمون ۱۵ کیلوگرم",
+      "page_unique": "296",
+      "current_price": 31000000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-296.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-296.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-296.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس پلاس با سالمون ۱۵ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس پلاس اسکین کر با سالمون ۱۵ کیلوگرم",
+      "page_unique": "295",
+      "current_price": 34300000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-295.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-295.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-295.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس پلاس اسکین کر با سالمون ۱۵ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم",
+      "page_unique": "294",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-294.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-294.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-294.html",
+      "short_desc": "غذای خشک توله‌سگ نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد کوچک رفلکس پلاس با سالمون ۸ کیلوگرم",
+      "page_unique": "293",
+      "current_price": 16000000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-293.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-293.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-293.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد کوچک رفلکس پلاس با سالمون ۸ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد کوچک رفلکس پلاس با بره ۸ کیلوگرم",
+      "page_unique": "292",
+      "current_price": 16000000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-292.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-292.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-292.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد کوچک رفلکس پلاس با بره ۸ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم",
+      "page_unique": "291",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-291.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-291.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-291.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس پلاس با مرغ ۱۵ کیلوگرم",
+      "page_unique": "290",
+      "current_price": 31000000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-290.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-290.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-290.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس پلاس با مرغ ۱۵ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ عقیم‌شده نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم",
+      "page_unique": "289",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-289.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-289.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-289.html",
+      "short_desc": "غذای خشک سگ بالغ عقیم‌شده نژاد متوسط و بزرگ رفلکس پلاس با بره ۱۲ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد خیلی بزرگ رفلکس پلاس با گوشت بره ۱۸ کیلوگرم",
+      "page_unique": "288",
+      "current_price": 30900000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-288.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-288.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-288.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد خیلی بزرگ رفلکس پلاس با گوشت بره ۱۸ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک بچه‌گربه رفلکس پلاس با مرغ ۱۵ کیلوگرم",
+      "page_unique": "287",
+      "current_price": 31000000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-287.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-287.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-287.html",
+      "short_desc": "غذای خشک بچه‌گربه رفلکس پلاس با مرغ ۱۵ کیلوگرم. فرمول بچه‌گربه با مرغ برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک بچه‌گربه رفلکس پلاس با سالمون ۱۵ کیلوگرم",
+      "page_unique": "286",
+      "current_price": 33300000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-286.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-286.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-286.html",
+      "short_desc": "غذای خشک بچه‌گربه رفلکس پلاس با سالمون ۱۵ کیلوگرم. فرمول بچه‌گربه با سالمون برای دوره رشد. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ رفلکس پلاس های انرژی با گوشت گاو ۱۲ کیلوگرم",
+      "page_unique": "285",
+      "current_price": 21800000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-285.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-285.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-285.html",
+      "short_desc": "غذای خشک سگ بالغ رفلکس پلاس های انرژی با گوشت گاو ۱۲ کیلوگرم. فرمول پرانرژی با گوشت گاو برای سگ‌های بالغ فعال. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس پلاس هربال با سالمون ۱۵ کیلوگرم",
+      "page_unique": "284",
+      "current_price": 34300000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-284.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-284.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-284.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس پلاس هربال با سالمون ۱۵ کیلوگرم. فرمول کنترل گلوله مو (Hairball) با سالمون، مناسب گربه‌های بالغ. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ رفلکس پلاس گورمت با مرغ ۱۵ کیلوگرم",
+      "page_unique": "283",
+      "current_price": 33300000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-283.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-283.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-283.html",
+      "short_desc": "غذای خشک گربه بالغ رفلکس پلاس گورمت با مرغ ۱۵ کیلوگرم. فرمول گورمت با طعم مرغ برای گربه‌های بالغ؛ غذای خشک کامل روزانه. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex Plus"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ رفلکس با گوشت بره و برنج ۱۵ کیلوگرم",
+      "page_unique": "282",
+      "current_price": 23200000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-282.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-282.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-282.html",
+      "short_desc": "غذای خشک سگ بالغ رفلکس با گوشت بره و برنج ۱۵ کیلوگرم. بسته 15 کیلوگرمی برند Reflex. قیمت 23,200,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ رفلکس با گوشت بره و برنج ۱۰ کیلوگرم",
+      "page_unique": "281",
+      "current_price": 15100000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-281.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-281.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-281.html",
+      "short_desc": "غذای خشک سگ بالغ رفلکس با گوشت بره و برنج ۱۰ کیلوگرم. بسته 10 کیلوگرمی برند Reflex. قیمت 15,100,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ رفلکس با گوشت بره ۱۵ کیلوگرم",
+      "page_unique": "280",
+      "current_price": 24500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-280.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-280.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-280.html",
+      "short_desc": "غذای خشک توله‌سگ رفلکس با گوشت بره ۱۵ کیلوگرم. بسته 15 کیلوگرمی برند Reflex. قیمت 24,500,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ رفلکس با گوشت بره و برنج ۱۰ کیلوگرم",
+      "page_unique": "279",
+      "current_price": 16500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-279.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-279.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-279.html",
+      "short_desc": "غذای خشک توله‌سگ رفلکس با گوشت بره و برنج ۱۰ کیلوگرم. بسته 10 کیلوگرمی برند Reflex. قیمت 16,500,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک بچه‌گربه رفلکس با مرغ و برنج ۱۵ کیلوگرم",
+      "page_unique": "278",
+      "current_price": 28400000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-278.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-278.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-278.html",
+      "short_desc": "غذای خشک بچه‌گربه رفلکس با مرغ و برنج ۱۵ کیلوگرم. بسته 15 کیلوگرمی برند Reflex. قیمت 28,400,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ فعال رفلکس با گوشت گاو و برنج ۱۵ کیلوگرم",
+      "page_unique": "277",
+      "current_price": 24500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-277.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-277.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-277.html",
+      "short_desc": "غذای خشک سگ بالغ فعال رفلکس با گوشت گاو و برنج ۱۵ کیلوگرم. بسته 15 کیلوگرمی برند Reflex. قیمت 24,500,000 تومان. ارسال مستقیم از نمایندگی رفلکس ترکیه شهر استانبول؛ ارسال ۹ تا ۱۴ روز؛ محصول اصل و اورجینال رفلکس ترکیه.",
+      "spec": {
+        "brand": "Reflex"
+      }
+    },
+    {
+      "title": "غذای خشک سگ حساس نژاد متوسط پروپلن با طعم سالمون ۳ کیلوگرم",
+      "page_unique": "276",
+      "current_price": 12500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-276.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-276.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-276.html",
+      "short_desc": "غذای خشک سگ حساس نژاد متوسط پروپلن با طعم سالمون ۳ کیلوگرم. وزن بسته ۳ کیلوگرم. سگ بالغ نژاد متوسط؛ سالمون؛ Sensitive Skin. قیمت 12,500,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک سگ حساس نژاد متوسط پروپلن با طعم سالمون ۱۰ کیلوگرم",
+      "page_unique": "275",
+      "current_price": 31300000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-275.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-275.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-275.html",
+      "short_desc": "غذای خشک سگ حساس نژاد متوسط پروپلن با طعم سالمون ۱۰ کیلوگرم. وزن بسته ۱۰ کیلوگرم. سگ بالغ نژاد متوسط؛ سالمون؛ Sensitive Skin. قیمت 31,300,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ نژاد کوچک و مینی پروپلن با طعم سالمون ۳ کیلوگرم",
+      "page_unique": "274",
+      "current_price": 12300000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-274.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-274.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-274.html",
+      "short_desc": "غذای خشک توله‌سگ نژاد کوچک و مینی پروپلن با طعم سالمون ۳ کیلوگرم. وزن بسته ۳ کیلوگرم. توله‌سگ نژاد کوچک و مینی؛ سالمون؛ Sensitive Skin. قیمت 12,300,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ پروپلن با طعم مرغ ۱۰ کیلوگرم",
+      "page_unique": "273",
+      "current_price": 36900000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-273.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-273.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-273.html",
+      "short_desc": "غذای خشک گربه بالغ پروپلن با طعم مرغ ۱۰ کیلوگرم. وزن بسته ۱۰ کیلوگرم. گربه بالغ؛ مرغ؛ نوع دقیق فرمول روی بسته باید تأیید شود. قیمت 36,900,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود. تصویر محصول موقت است؛ تصویر ارسالی گربه مربوط به Renal Plus بود و با عنوان عمومی مرغ مطابقت نداشت.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ پروپلن با طعم مرغ ۳ کیلوگرم",
+      "page_unique": "272",
+      "current_price": 12500000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-272.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-272.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-272.html",
+      "short_desc": "غذای خشک گربه بالغ پروپلن با طعم مرغ ۳ کیلوگرم. وزن بسته ۳ کیلوگرم. گربه بالغ؛ مرغ؛ نوع دقیق فرمول روی بسته باید تأیید شود. قیمت 12,500,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود. تصویر محصول موقت است؛ تصویر ارسالی گربه مربوط به Renal Plus بود و با عنوان عمومی مرغ مطابقت نداشت.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد کوچک و مینی پروپلن با طعم مرغ ۳ کیلوگرم",
+      "page_unique": "271",
+      "current_price": 10900000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-271.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-271.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-271.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد کوچک و مینی پروپلن با طعم مرغ ۳ کیلوگرم. وزن بسته ۳ کیلوگرم. سگ بالغ نژاد کوچک و مینی؛ مرغ؛ Everyday Nutrition. قیمت 10,900,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ نژاد متوسط پروپلن با طعم سالمون ۳ کیلوگرم",
+      "page_unique": "270",
+      "current_price": 12500000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-270.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-270.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-270.html",
+      "short_desc": "غذای خشک توله‌سگ نژاد متوسط پروپلن با طعم سالمون ۳ کیلوگرم. وزن بسته ۳ کیلوگرم. توله‌سگ نژاد متوسط؛ سالمون؛ Sensitive Skin. قیمت 12,500,000 تومان. مشخصات دقیق مواد تشکیل‌دهنده و جدول تغذیه مطابق برچسب اصلی بسته بررسی شود.",
+      "spec": {
+        "brand": "Pro Plan"
+      }
+    },
+    {
+      "title": "غذای خشک سگ نژاد کوچک با موی سفید N&D White Coat ماهی سی‌بَس و اسپیرولینا بدون غله ۵ کیلوگرم",
+      "page_unique": "269",
+      "current_price": 24600000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-269.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-269.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-269.html",
+      "short_desc": "غذای خشک سگ نژاد کوچک با موی سفید N&D White Coat ماهی سی‌بَس و اسپیرولینا بدون غله ۵ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد کوچک با پوشش موی سفید، با ترکیبات شاخص ماهی سی‌بَس، اسپیرولینا و رازیانه؛ فرمول بدون غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ نژاد کوچک با موی سفید N&D White Coat ماهی سی‌بَس و اسپیرولینا بدون غله ۲ کیلوگرم",
+      "page_unique": "268",
+      "current_price": 13700000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-268.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-268.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-268.html",
+      "short_desc": "غذای خشک سگ نژاد کوچک با موی سفید N&D White Coat ماهی سی‌بَس و اسپیرولینا بدون غله ۲ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد کوچک با پوشش موی سفید، با ترکیبات شاخص ماهی سی‌بَس، اسپیرولینا و رازیانه؛ فرمول بدون غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection مرغ و میوه‌های استوایی ۲ کیلوگرم",
+      "page_unique": "267",
+      "current_price": 9050000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-267.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-267.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-267.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection مرغ و میوه‌های استوایی ۲ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد متوسط و بزرگ، با ترکیبات شاخص مرغ، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک گربه عقیم‌شده N&D Tropical Selection مرغ و میوه‌های استوایی ۵ کیلوگرم",
+      "page_unique": "266",
+      "current_price": 17150000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-266.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-266.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-266.html",
+      "short_desc": "غذای خشک گربه عقیم‌شده N&D Tropical Selection مرغ و میوه‌های استوایی ۵ کیلوگرم. خوراک خشک N&D مناسب گربه بالغ عقیم‌شده، با ترکیبات شاخص مرغ، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک گربه بالغ N&D Tropical Selection مرغ و میوه‌های استوایی ۵ کیلوگرم",
+      "page_unique": "265",
+      "current_price": 17150000,
+      "availability": "preorder",
+      "category_name": "غذای گربه",
+      "image_link": "https://petshopkhoshmazeh.ir/product-265.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-265.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-265.html",
+      "short_desc": "غذای خشک گربه بالغ N&D Tropical Selection مرغ و میوه‌های استوایی ۵ کیلوگرم. خوراک خشک N&D مناسب گربه بالغ، با ترکیبات شاخص مرغ، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection سالمون و میوه‌های استوایی ۲ کیلوگرم",
+      "page_unique": "264",
+      "current_price": 9400000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-264.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-264.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-264.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection سالمون و میوه‌های استوایی ۲ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد متوسط و بزرگ، با ترکیبات شاخص سالمون، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد کوچک N&D Tropical Selection سالمون و میوه‌های استوایی ۵ کیلوگرم",
+      "page_unique": "263",
+      "current_price": 16700000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-263.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-263.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-263.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد کوچک N&D Tropical Selection سالمون و میوه‌های استوایی ۵ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد کوچک، با ترکیبات شاخص سالمون، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection بره و میوه‌های استوایی ۲ کیلوگرم",
+      "page_unique": "262",
+      "current_price": 9400000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-262.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-262.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-262.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection بره و میوه‌های استوایی ۲ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد متوسط و بزرگ، با ترکیبات شاخص بره، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک سگ بالغ نژاد کوچک N&D Tropical Selection بره و میوه‌های استوایی ۵ کیلوگرم",
+      "page_unique": "261",
+      "current_price": 16700000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-261.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-261.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-261.html",
+      "short_desc": "غذای خشک سگ بالغ نژاد کوچک N&D Tropical Selection بره و میوه‌های استوایی ۵ کیلوگرم. خوراک خشک N&D مناسب سگ بالغ نژاد کوچک، با ترکیبات شاخص بره، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
+    {
+      "title": "غذای خشک توله‌سگ نژاد متوسط و بزرگ N&D Tropical Selection بره و میوه‌های استوایی ۲ کیلوگرم",
+      "page_unique": "260",
+      "current_price": 9400000,
+      "availability": "preorder",
+      "category_name": "غذای سگ",
+      "image_link": "https://petshopkhoshmazeh.ir/product-260.jpg",
+      "image_links": [
+        "https://petshopkhoshmazeh.ir/product-260.jpg"
+      ],
+      "page_url": "https://petshopkhoshmazeh.ir/product-260.html",
+      "short_desc": "غذای خشک توله‌سگ نژاد متوسط و بزرگ N&D Tropical Selection بره و میوه‌های استوایی ۲ کیلوگرم. خوراک خشک N&D مناسب توله‌سگ نژاد متوسط و بزرگ، با ترکیبات شاخص بره، اسپلت، جو دوسر و میوه‌های استوایی؛ فرمول کم‌غله. فهرست دقیق ترکیبات و مقادیر تغذیه‌ای مطابق برچسب کارخانه‌ای محصول است. ارسال مستقیم از نمایندگی N&D ترکیه، استانبول؛ تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل؛ حداقل ۹ ماه تاریخ انقضا هنگام تحویل.",
+      "spec": {
+        "brand": "N&D"
+      }
+    },
     {
       "title": "غذای خشک سگ بالغ نژاد کوچک N&D Tropical Selection گوشت خوک و میوه‌های استوایی کم‌غله ۵ کیلوگرم",
       "page_unique": "259",
@@ -20,7 +788,7 @@
     {
       "title": "غذای خشک سگ بالغ نژاد متوسط و بزرگ N&D Tropical Selection گوشت خوک و میوه‌های استوایی کم‌غله ۲ کیلوگرم",
       "page_unique": "258",
-      "current_price": 8800000,
+      "current_price": 7800000,
       "availability": "preorder",
       "category_name": "غذای سگ",
       "image_link": "https://petshopkhoshmazeh.ir/product-258.jpg?v=20261101",
@@ -1476,7 +2244,7 @@
     {
       "title": "غذای خشک توله سگ نژاد کوچک رویال کنین Royal Canin Mini Puppy وزن ۲ کیلوگرم",
       "page_unique": "167",
-      "current_price": 8800000,
+      "current_price": 7800000,
       "availability": "preorder",
       "category_name": "غذای سگ",
       "image_link": "https://petshopkhoshmazeh.ir/product-167.jpg",
@@ -1484,7 +2252,7 @@
         "https://petshopkhoshmazeh.ir/product-167.jpg"
       ],
       "page_url": "https://petshopkhoshmazeh.ir/product-167.html",
-      "short_desc": "غذای خشک توله سگ نژاد کوچک رویال کنین Royal Canin Mini Puppy وزن ۲ کیلوگرم با قیمت ۸٬۸۰۰٬۰۰۰ تومان برای یک پاکت ۲ کیلوگرم. مناسب توله‌سگ‌های نژاد کوچک از ۲ تا ۱۰ ماهگی با وزن بزرگسالی حداکثر ۱۰ کیلوگرم. پشتیبانی از سیستم ایمنی و رشد مغز، انرژی متناسب با دوره رشد و دانه‌بندی مناسب برای فک کوچک توله‌سگ. دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی رویال کنین ترکیه، شهر استانبول؛ زمان تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل.",
+      "short_desc": "غذای خشک توله سگ نژاد کوچک رویال کنین Royal Canin Mini Puppy وزن ۲ کیلوگرم با قیمت ۷٬۸۰۰٬۰۰۰ تومان برای یک پاکت ۲ کیلوگرم. مناسب توله‌سگ‌های نژاد کوچک از ۲ تا ۱۰ ماهگی با وزن بزرگسالی حداکثر ۱۰ کیلوگرم. پشتیبانی از سیستم ایمنی و رشد مغز، انرژی متناسب با دوره رشد و دانه‌بندی مناسب برای فک کوچک توله‌سگ. دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی رویال کنین ترکیه، شهر استانبول؛ زمان تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل.",
       "spec": {
         "brand": "Royal Canin"
       }
@@ -1540,7 +2308,7 @@
     {
       "title": "غذای خشک سگ نژاد کوچک رویال کنین Royal Canin Mini Adult وزن ۲ کیلوگرم",
       "page_unique": "163",
-      "current_price": 8800000,
+      "current_price": 7800000,
       "availability": "preorder",
       "category_name": "غذای سگ",
       "image_link": "https://petshopkhoshmazeh.ir/product-163.jpg",
@@ -1548,7 +2316,7 @@
         "https://petshopkhoshmazeh.ir/product-163.jpg"
       ],
       "page_url": "https://petshopkhoshmazeh.ir/product-163.html",
-      "short_desc": "غذای خشک سگ نژاد کوچک رویال کنین Royal Canin Mini Adult وزن ۲ کیلوگرم با قیمت ۸٬۸۰۰٬۰۰۰ تومان برای یک پاکت ۲ کیلوگرم. مناسب سگ‌های بالغ نژاد کوچک بالای ۱۰ ماه با وزن حداکثر ۱۰ کیلوگرم. با انرژی متناسب برای حفظ وزن مطلوب، پروتئین‌های با قابلیت هضم بالا و اندازه دانه سازگار با فک کوچک. دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی رویال کنین ترکیه، شهر استانبول؛ زمان تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل.",
+      "short_desc": "غذای خشک سگ نژاد کوچک رویال کنین Royal Canin Mini Adult وزن ۲ کیلوگرم با قیمت ۷٬۸۰۰٬۰۰۰ تومان برای یک پاکت ۲ کیلوگرم. مناسب سگ‌های بالغ نژاد کوچک بالای ۱۰ ماه با وزن حداکثر ۱۰ کیلوگرم. با انرژی متناسب برای حفظ وزن مطلوب، پروتئین‌های با قابلیت هضم بالا و اندازه دانه سازگار با فک کوچک. دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی رویال کنین ترکیه، شهر استانبول؛ زمان تحویل ۹ الی ۱۴ روز از ثبت سفارش تا درب منزل.",
       "spec": {
         "brand": "Royal Canin"
       }
@@ -1796,7 +2564,7 @@
     {
       "title": "غذای خشک گربه جوسرا Josera NatureCat با مرغ و سالمون وزن ۲ کیلوگرم",
       "page_unique": "147",
-      "current_price": 10175000,
+      "current_price": 9175000,
       "availability": "preorder",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-147.jpg",
@@ -1804,7 +2572,7 @@
         "https://petshopkhoshmazeh.ir/product-147.jpg"
       ],
       "page_url": "https://petshopkhoshmazeh.ir/product-147.html",
-      "short_desc": "خرید غذای خشک گربه جوسرا Josera NatureCat با مرغ و سالمون وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب گربه‌های بالغ، به‌خصوص گربه‌های فعال. قیمت هر پاکت ۲ کیلوگرمی ۱۰٬۱۷۵٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
+      "short_desc": "خرید غذای خشک گربه جوسرا Josera NatureCat با مرغ و سالمون وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب گربه‌های بالغ، به‌خصوص گربه‌های فعال. قیمت هر پاکت ۲ کیلوگرمی ۹٬۱۷۵٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
       "spec": {
         "brand": "Josera"
       }
@@ -1812,7 +2580,7 @@
     {
       "title": "غذای خشک بچه‌گربه جوسرا Josera Kitten وزن ۲ کیلوگرم",
       "page_unique": "146",
-      "current_price": 8800000,
+      "current_price": 7800000,
       "availability": "preorder",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-146.jpg",
@@ -1820,7 +2588,7 @@
         "https://petshopkhoshmazeh.ir/product-146.jpg"
       ],
       "page_url": "https://petshopkhoshmazeh.ir/product-146.html",
-      "short_desc": "خرید غذای خشک بچه‌گربه جوسرا Josera Kitten وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب بچه‌گربه‌ها تا یک‌سالگی و گربه‌های باردار یا شیرده. قیمت هر پاکت ۲ کیلوگرمی ۸٬۸۰۰٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
+      "short_desc": "خرید غذای خشک بچه‌گربه جوسرا Josera Kitten وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب بچه‌گربه‌ها تا یک‌سالگی و گربه‌های باردار یا شیرده. قیمت هر پاکت ۲ کیلوگرمی ۷٬۸۰۰٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
       "spec": {
         "brand": "Josera"
       }
@@ -1828,7 +2596,7 @@
     {
       "title": "غذای خشک گربه جوسرا Josera Indoor / Naturelle وزن ۲ کیلوگرم",
       "page_unique": "145",
-      "current_price": 10175000,
+      "current_price": 9175000,
       "availability": "preorder",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-145.jpg",
@@ -1836,7 +2604,7 @@
         "https://petshopkhoshmazeh.ir/product-145.jpg"
       ],
       "page_url": "https://petshopkhoshmazeh.ir/product-145.html",
-      "short_desc": "خرید غذای خشک گربه جوسرا Josera Indoor / Naturelle وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب گربه‌های بالغ خانگی و عقیم‌شده. قیمت هر پاکت ۲ کیلوگرمی ۱۰٬۱۷۵٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
+      "short_desc": "خرید غذای خشک گربه جوسرا Josera Indoor / Naturelle وزن ۲ کیلوگرم؛ ساخت آلمان، مناسب گربه‌های بالغ خانگی و عقیم‌شده. قیمت هر پاکت ۲ کیلوگرمی ۹٬۱۷۵٬۰۰۰ تومان؛ دارای تاریخ انقضای حداقل ۹ ماهه هنگام تحویل. ارسال مستقیم از نمایندگی جوسرا ترکیه، شهر استانبول با زمان تحویل ۹ تا ۱۴ روز و ضمانت اصالت کالا توسط پت‌شاپ خوشمزه.",
       "spec": {
         "brand": "Josera"
       }
@@ -2834,86 +3602,6 @@
       }
     },
     {
-      "title": "پوچ گربه ویسکاس با طعم تن ماهی در ژله ۸۵ گرم (سفارش ترکیه)",
-      "page_unique": "82",
-      "current_price": 230000,
-      "availability": "outofstock",
-      "category_name": "غذای گربه",
-      "image_link": "https://petshopkhoshmazeh.ir/product-82.jpg",
-      "image_links": [
-        "https://petshopkhoshmazeh.ir/product-82.jpg"
-      ],
-      "page_url": "https://petshopkhoshmazeh.ir/product-82.html",
-      "short_desc": "غذای تر (پوچ) ویسکاس ساخت ترکیه، تکه‌های تن ماهی در ژله؛ پاکت ۸۵ گرمی. قیمت، مشخصات و موجودی را در پت شاپ خوشمزه ببینید؛ ارسال به سراسر ایران.",
-      "spec": {
-        "brand": "Whiskas"
-      }
-    },
-    {
-      "title": "کنسرو گربه گورمت پتهٔ خردشده (Kıyılmış) با طعم تن ماهی ۸۵ گرم (سفارش ترکیه)",
-      "page_unique": "81",
-      "current_price": 240000,
-      "availability": "outofstock",
-      "category_name": "غذای گربه",
-      "image_link": "https://petshopkhoshmazeh.ir/product-81.jpg",
-      "image_links": [
-        "https://petshopkhoshmazeh.ir/product-81.jpg"
-      ],
-      "page_url": "https://petshopkhoshmazeh.ir/product-81.html",
-      "short_desc": "کنسرو گورمت ساخت ترکیه، بافت پتهٔ خردشده (Kıyılmış)، طعم تن ماهی؛ پاکت ۸۵ گرمی. قیمت، مشخصات و موجودی را در پت شاپ خوشمزه ببینید؛ ارسال به سراسر ایران. (ناموجود)",
-      "spec": {
-        "brand": "Gourmet"
-      }
-    },
-    {
-      "title": "کنسرو گربه گورمت پتهٔ خردشده (Kıyılmış) با طعم سالمون ۸۵ گرم (سفارش ترکیه)",
-      "page_unique": "80",
-      "current_price": 240000,
-      "availability": "outofstock",
-      "category_name": "غذای گربه",
-      "image_link": "https://petshopkhoshmazeh.ir/product-80.jpg",
-      "image_links": [
-        "https://petshopkhoshmazeh.ir/product-80.jpg"
-      ],
-      "page_url": "https://petshopkhoshmazeh.ir/product-80.html",
-      "short_desc": "کنسرو گورمت ساخت ترکیه، بافت پتهٔ خردشده (Kıyılmış)، طعم سالمون؛ پاکت ۸۵ گرمی. قیمت، مشخصات و موجودی را در پت شاپ خوشمزه ببینید؛ ارسال به سراسر ایران. (ناموجود)",
-      "spec": {
-        "brand": "Gourmet"
-      }
-    },
-    {
-      "title": "کنسرو گربه گورمت پتهٔ خردشده (Kıyılmış) با طعم مرغ ۸۵ گرم (سفارش ترکیه)",
-      "page_unique": "79",
-      "current_price": 240000,
-      "availability": "outofstock",
-      "category_name": "غذای گربه",
-      "image_link": "https://petshopkhoshmazeh.ir/product-79.jpg",
-      "image_links": [
-        "https://petshopkhoshmazeh.ir/product-79.jpg"
-      ],
-      "page_url": "https://petshopkhoshmazeh.ir/product-79.html",
-      "short_desc": "کنسرو گورمت ساخت ترکیه، بافت پتهٔ خردشده (Kıyılmış)، طعم مرغ؛ پاکت ۸۵ گرمی. قیمت، مشخصات و موجودی را در پت شاپ خوشمزه ببینید؛ ارسال به سراسر ایران. (ناموجود)",
-      "spec": {
-        "brand": "Gourmet"
-      }
-    },
-    {
-      "title": "کنسرو گربه گورمت پتهٔ خردشده (Kıyılmış) با طعم گوشت گاو ۸۵ گرم (سفارش ترکیه)",
-      "page_unique": "78",
-      "current_price": 240000,
-      "availability": "outofstock",
-      "category_name": "غذای گربه",
-      "image_link": "https://petshopkhoshmazeh.ir/product-78.jpg",
-      "image_links": [
-        "https://petshopkhoshmazeh.ir/product-78.jpg"
-      ],
-      "page_url": "https://petshopkhoshmazeh.ir/product-78.html",
-      "short_desc": "کنسرو گورمت ساخت ترکیه، بافت پتهٔ خردشده (Kıyılmış)، طعم گوشت گاو؛ پاکت ۸۵ گرمی. قیمت، مشخصات و موجودی را در پت شاپ خوشمزه ببینید؛ ارسال به سراسر ایران. (ناموجود)",
-      "spec": {
-        "brand": "Gourmet"
-      }
-    },
-    {
       "title": "پوچ گربه هیلز Adult (بالای ۱ سال) با طعم گوشت گاو در سس ۸۵ گرم",
       "page_unique": "77",
       "current_price": 420000,
@@ -2949,7 +3637,7 @@
       "title": "پوچ بچه گربه ویسکاس Junior (زیر ۱ سال) با طعم طیور در سس ۸۵ گرم (سفارش ترکیه)",
       "page_unique": "75",
       "current_price": 230000,
-      "availability": "outofstock",
+      "availability": "instock",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-75.jpg",
       "image_links": [
@@ -2965,7 +3653,7 @@
       "title": "پوچ گربه ویسکاس با طعم مرغ در ژله ۸۵ گرم (سفارش ترکیه)",
       "page_unique": "74",
       "current_price": 230000,
-      "availability": "outofstock",
+      "availability": "instock",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-74.jpg",
       "image_links": [
@@ -2981,7 +3669,7 @@
       "title": "پوچ گربه ویسکاس با طعم گوشت گاو در ژله ۸۵ گرم (سفارش ترکیه)",
       "page_unique": "73",
       "current_price": 230000,
-      "availability": "outofstock",
+      "availability": "instock",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-73.jpg",
       "image_links": [
@@ -2997,7 +3685,7 @@
       "title": "پوچ گربه ویسکاس با طعم گوشت گاو در سس ۸۵ گرم (سفارش ترکیه)",
       "page_unique": "72",
       "current_price": 230000,
-      "availability": "outofstock",
+      "availability": "instock",
       "category_name": "غذای گربه",
       "image_link": "https://petshopkhoshmazeh.ir/product-72.jpg",
       "image_links": [
